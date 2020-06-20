@@ -5,9 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zhq</groupId>
-    <artifactId>common-demo</artifactId>
+    <artifactId>java-eight-demo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -16,20 +15,6 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.8.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.openjdk.jol</groupId>
-            <artifactId>jol-core</artifactId>
-            <version>0.10</version>
-        </dependency>
-
-
     </dependencies>
 
     <build>
@@ -44,6 +29,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>

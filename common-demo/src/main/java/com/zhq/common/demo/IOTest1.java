@@ -1,6 +1,7 @@
 package com.zhq.common.demo;
 
 import java.io.*;
+import java.util.HashMap;
 import java.util.Scanner;
 
 /**
@@ -14,6 +15,8 @@ public class IOTest1 {
                 System.out.println(scanner.nextLine());
             }
         }
+
+        HashMap<String, String> stringStringHashMap = new HashMap<>();
 
 
     }
