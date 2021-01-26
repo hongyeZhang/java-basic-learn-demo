@@ -25,7 +25,7 @@ public class CyclicPrintTest2 extends Thread {
     public void run() {
         count = 0;
         while (true) {
-            synchronized (syn) {
+            synchronize (syn) {
                 if (syn.get() % 3 == flag) {
                     syn.set(syn.get() + 1);
                     System.out.println(name);

@@ -26,7 +26,7 @@ public class ThreadAnalysisDemo {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
-                synchronized (lock) {
+                synchronize (lock) {
                     try {
                         lock.wait();
                     } catch (InterruptedException e) {

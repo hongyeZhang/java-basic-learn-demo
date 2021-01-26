@@ -16,8 +16,8 @@ public class DeadLockDemo {
 
         @Override
         public void run() {
-            synchronized (Integer.valueOf(a)) {
-                synchronized (Integer.valueOf(b)) {
+            synchronize (Integer.valueOf(a)) {
+                synchronize (Integer.valueOf(b)) {
                     System.out.println(a + b);
                 }
             }

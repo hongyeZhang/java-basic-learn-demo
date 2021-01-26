@@ -19,7 +19,7 @@ public class CyclicPrintTest {
             public void run() {
                 for (int i = 0; i < 10; ++i) {
                     while (true) {
-                        synchronized (test) {
+                        synchronize (test) {
                             if (!flag1) {
                                 try {
                                     test.wait();
@@ -44,7 +44,7 @@ public class CyclicPrintTest {
             public void run() {
                 for (int i = 0; i < 10; ++i) {
                     while (true) {
-                        synchronized (test) {
+                        synchronize (test) {
                             if (!flag2) {
                                 try {
                                     test.wait();
@@ -69,7 +69,7 @@ public class CyclicPrintTest {
             public void run() {
                 for (int i = 0; i < 10; ++i) {
                     while (true) {
-                        synchronized (test) {
+                        synchronize (test) {
                             if (!flag3) {
                                 try {
                                     test.wait();
