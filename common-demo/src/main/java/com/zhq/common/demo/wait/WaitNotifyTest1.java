@@ -15,7 +15,7 @@ public class WaitNotifyTest1 {
 
                 try {
                     System.out.println("begin wait");
-                    synchronize (obj) {
+                    synchronized (obj) {
                         obj.wait();
                         System.out.println("end wait");
                     }
